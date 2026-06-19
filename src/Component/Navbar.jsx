@@ -11,13 +11,13 @@ function Navbar() {
     <nav className="nav">
         <div className="nav-container">
             <div className="nav-item">
-                <NavLink className="content-logo" to="/Home">
+                <NavLink className="content-logo" to="/">
                     <img className="Logo" src={logo} alt="" />
                     <p className="text-logo">City Threads</p>
                 </NavLink>
             </div>
             <div className="nav-item-1">
-                <NavLink className="text-logo-2" to="/Home">
+                <NavLink className="text-logo-2" to="/">
                 Home
             </NavLink>
 
